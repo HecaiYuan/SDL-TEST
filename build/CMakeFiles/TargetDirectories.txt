@@ -1,0 +1,12 @@
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/sdl_headers_copy.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/SDL2main.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/SDL2.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/SDL2-static.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/SDL2_test.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/uninstall.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/edit_cache.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/rebuild_cache.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/list_install_components.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/install.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/install/local.dir
+/home/loongson/shequ/yhc_shequ/SDL-TEST/build/CMakeFiles/install/strip.dir

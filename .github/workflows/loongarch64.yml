@@ -12,8 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform:
-          - { toolchain-version: 2023.08.08 }
+        - { toolchain-version: 2023.08.08 }
     steps:
       - uses: actions/checkout@v3
       - name: Install build requirements

@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:
-        - { toolchain-version: 2023.08.08 }
     steps:
       - uses: actions/checkout@v3
       - name: Install build requirements
@@ -24,7 +22,6 @@ jobs:
         id: restore-cache
         with:
           path: /opt/cross-tools
-          key: loongarch64-${{ matrix.platform.toolchain-version }}
 
       - name: Download LoongArch64 gcc+glibc toolchain
         if: ${{ !steps.restore-cache.outputs.cache-hit }}
@@ -40,7 +37,6 @@ jobs:
         if: ${{ !steps.restore-cache.outputs.cache-hit }}
         with:
           path: /opt/cross-tools
-          key: loongarch64-${{ matrix.platform.toolchain-version }}
 
       - name: Set-up Loongarch64 build environment
         run: |

@@ -26,7 +26,7 @@ jobs:
       - name: Download LoongArch64 gcc+glibc toolchain
         if: ${{ !steps.restore-cache.outputs.cache-hit }}
         run: |
-          url="https://github.com/sunhaiyong1978/CLFS-for-LoongArch/releases/download/8.0/loongarch64-clfs-8.0-cross-tools-c-only.tar.xz"
+          url="https://github.com/sunhaiyong1978/CLFS-for-LoongArch/releases/download/8.0/loongarch64-clfs-8.0-cross-tools-gcc-glibc.tar.xz"
 
           wget "$url" -O /tmp/toolchain.tar.xz
 
